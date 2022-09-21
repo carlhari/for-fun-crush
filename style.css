@@ -4,31 +4,34 @@
 }
 
 body,html{
-    padding: 0;
-    margin: auto;
+    padding: 15px;
+    margin: 0;
+    background-color: rgb(59, 57, 57);
+
 }
 
 
 .container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: aliceblue;
-  
-        margin: auto;
-        width: 50%;
-        border: 3px solid green;
-        padding: 10px;
-      
+   width: 500px;
+   height: 500px;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+   flex-direction: column;
+   margin: 0 auto;
+
+}
+.txt{ 
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.btn{
-    display:flex;
-    flex-direction: row;
-    gap: 30px;
-}
 
 .oo{
+    margin-top: 15px;
     background-color: green;
     padding: 5px;
     color: white;
@@ -39,10 +42,15 @@ body,html{
 
 .hindi{
     background-color: red;
-    color:black;
+    color:white;
     padding: 5px;
     border-radius: 15px;
     border: none;
-    
+}
+
+footer{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
 }
 

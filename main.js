@@ -10,5 +10,6 @@ function moveButton(){
 }
 
 function displayMessage(){
-    alert('LOVE YOU TOO');
+    alert('SABI KO NA CRUSH MO KO E \nLOVE YOU ');
+    
 }
